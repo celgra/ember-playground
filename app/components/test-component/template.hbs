@@ -1,0 +1,15 @@
+Hello {{name}}!
+
+This is an internal string: "{{this.localProp}}""
+<br />
+{{this.someThing}}
+<br />
+{{this.computedThing}}
+<br />
+{{#if this.bool}}
+    True
+{{else}}
+    False
+{{/if}}
+<br />
+<button onclick={{action this.toggleBool}}>Toggle</button>
